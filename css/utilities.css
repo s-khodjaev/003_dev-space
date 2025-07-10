@@ -1,0 +1,61 @@
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Backgrounds */
+
+.bg-primary {
+  background-color: #0a0f7e;
+  color: #fff;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Flex Items */
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-items img {
+  max-width: 10%;
+  padding: 20px;
+}
+
+/* Section Header */
+
+.section-header {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}

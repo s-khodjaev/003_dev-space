@@ -11,28 +11,70 @@
     />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
     <title>Dev Space</title>
   </head>
   <body>
     <header class="hero">
-      <!-- Navbar -->
-      <div class="navbar" id="navbar">
-        <div class="logo">
-          <img src="img/logo.svg" alt="" />
-          Dev Space
+      <div class="container">
+        <!-- Navbar -->
+        <div class="navbar" id="navbar">
+          <div class="logo">
+            <img src="img/logo.svg" alt="" />
+            Dev Space
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#what">What we do</a></li>
+              <li><a href="#how">How we work</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#download">Download</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#what">What we do</a></li>
-            <li><a href="#how">How we work</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#team">Our Team</a></li>
-            <li><a href="#download">Download</a></li>
-          </ul>
-        </nav>
       </div>
 
       <!-- Content -->
+      <div class="content">
+        <div class="container">
+          <div class="content-info">
+            <h1>
+              Design UI <br />
+              App Development <br />
+              Consultant Services
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus quos nesciunt totam accusamus reiciendis aut et
+              eius beatae amet nostrum?
+            </p>
+            <a href="#" class="btn btn-outline">Start A Project Today</a>
+          </div>
+          <div class="content_img">
+            <img src="img/yeo-feature-1.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
+
+    <!-- Clients -->
+    <section class="clients bg-light">
+      <div class="section-header">
+        <p>Trusted By The Best Clients</p>
+        <div class="flex-items">
+          <img src="img/algolia.svg" alt="" />
+          <img src="img/lapa-logo.svg" alt="" />
+          <img src="img/hugo.svg" alt="" />
+          <img src="img/codecademy.svg" alt="" />
+          <img src="img/aws.svg" alt="" />
+          <img src="img/stripe.svg" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
